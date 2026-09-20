@@ -31,7 +31,7 @@ import static Seoul_Milk.sm_server.domain.taxInvoice.enums.TempStatus.INITIAL;
 public class TaxInvoice {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.SEQUENCE)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "TAX_INVOICE_ID")
     private Long taxInvoiceId;
 
