@@ -1,0 +1,9 @@
+# Blocks Agent/Tab/@mention. Does not block terminal or MCP.
+.env
+.env.*
+application-local.yml
+*.pem
+*.key
+credentials.json
+secrets.json
+id_rsa
